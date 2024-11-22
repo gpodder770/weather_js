@@ -1,0 +1,36 @@
+<head>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+	<title>Weather App</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="weather-card">
+			<h1 style="color: green;">Weather App</h1>
+			<select name="" id="city_selection">
+                <!-- <option value="0">Winnipeg</option>
+                <option value="1">Alberta</option> -->
+            </select>
+            <br>
+			<button id="city_input_btn"
+					onclick="getWeather()">
+					Get Current Weather
+			</button>
+			<div id="weather_info"class="animate__animated animate__fadeIn">
+				<h3 id="city_name"></h3>
+				<p id="date"></p>
+				<img id="weather-icon" src="" alt="Weather Icon">
+				<p id="temperature"></p>
+				<p id="description"></p>
+				<p id="wind-speed"></p>
+			</div>
+		</div>
+	</div>
+	<script src="custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
